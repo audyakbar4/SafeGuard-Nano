@@ -1,6 +1,6 @@
 # SafeGuard-Nano (Guard Box)
 
-
+<img src="" width="50" height="50">
 
 ## Supported by :
 >- Dosen Pengampu : Akhmad Hendriawan, S.T., M.T.
