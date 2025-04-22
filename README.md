@@ -1,6 +1,6 @@
 # SafeGuard-Nano (Guard Box)
 
-## Didukung Oleh :
+## Supported by :
 >- Dosen Pengampu : Akhmad Hendriawan, S.T., M.T.
 >- Mata kuliah : Workshop Mikrokontroller
 >- Program Studi : Teknik Elektronika
