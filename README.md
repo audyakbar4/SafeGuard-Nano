@@ -9,4 +9,4 @@
 ## Team Member :
 |      NRP      |       Nama      |    Jobdesk    |   Akun |
 | :-----------:|:----------------:| :------------:| :-----:|
-| asdasadsadsadasdas              |           dsadsadsadsa       |         sadsadsad      |     asfasdasdsa   |
+|2123500003|Audy Putra Pratama Akbar|UI/UX Designer|       |
