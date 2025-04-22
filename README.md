@@ -1,6 +1,6 @@
 # SafeGuard-Nano (Guard Box)
 
-<img src="" width="50" height="50">
+<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/logo-team.png" width="50" height="50">
 
 ## Supported by :
 >- Dosen Pengampu : Akhmad Hendriawan, S.T., M.T.
