@@ -7,6 +7,6 @@
 >- Institusi : Politeknik Elektronika Negeri Surabaya (PENS)
 
 ## Team Member :
-|      NRP      |       Nama      |    Jobdesk    |   Akun |
-| :-----------:|:----------------:| :------------:| :-----:|
-|2123500003|Audy Putra Pratama Akbar|UI/UX Designer|       |
+|      NRP      |       Nama      |    Jobdesk    |
+| :-----------:|:----------------:| :------------:|
+|2123500003|Audy Putra Pratama Akbar|UI/UX Designer|
