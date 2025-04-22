@@ -1,5 +1,7 @@
 # SafeGuard-Nano (Guard Box)
 
+![Drasoul.Tech](https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/logo-team.png)
+
 ## Supported by :
 >- Dosen Pengampu : Akhmad Hendriawan, S.T., M.T.
 >- Mata kuliah : Workshop Mikrokontroller
