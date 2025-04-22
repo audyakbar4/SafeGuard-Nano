@@ -16,3 +16,21 @@
 |2123500027|Ingka Fitra Oemardi|Programmer|
 
 
+## Komponen Yang Digunakan
+
+### Hardware
+- Arduino Nano
+- 
+- 
+
+
+### Software
+- Figma
+- 
+- 
+- 
+- 
+- 
+
+
+
