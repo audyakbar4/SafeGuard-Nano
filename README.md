@@ -19,7 +19,7 @@
 
 
 ## Blok Diagram Sistem
-
+<img src="">
 
 
 ## Komponen Yang Digunakan
