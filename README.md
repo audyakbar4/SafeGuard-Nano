@@ -19,7 +19,7 @@
 
 
 ## Blok Diagram Sistem
-<img src="">
+<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/Bagan%20SafeGuard.png">
 
 
 ## Komponen Yang Digunakan
