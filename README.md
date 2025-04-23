@@ -18,17 +18,23 @@
 |2123500027|Ingka Fitra Oemardi|Programmer|
 
 
+## Blok Diagram Sistem
+
+
+
 ## Komponen Yang Digunakan
 
 ### Hardware
 - Arduino Nano
-- 
-- 
+- Sensor PIR
+- SW420
+- LED
+- Reed Switch
 
 
 ### Software
 - Figma
-- 
+- Kicad
 - 
 - 
 - 
