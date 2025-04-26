@@ -1,6 +1,6 @@
-# SafeGuard-Nano (Guard Box)
+# MoodPot - "Happy Plant, Happy You."
 
-<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/logo-team.png" width="50" height="50">
+<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/IMG-20250426-WA0019.jpg" width="85" height="85">
 
 ## Supported by :
 >- Dosen Pengampu : Akhmad Hendriawan, S.T., M.T.
