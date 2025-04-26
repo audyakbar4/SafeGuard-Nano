@@ -11,6 +11,12 @@ Jika tanah terlalu kering, LCD akan menampilkan ekspresi cemberut sebagai sinyal
 
 MoodPot dibuat untuk semua kalangan—baik pemula maupun pecinta tanaman berpengalaman—dengan tujuan untuk menjadikan kegiatan berkebun lebih mudah, menyenangkan, dan komunikatif.
 
+## Tujuan
+1. Mendeteksi kelembapan tanah secara otomatis menggunakan sensor.
+2. Memberikan feedback visual dengan ekspresi wajah (senyum/cemberut) untuk memudahkan pemilik tanaman merawatnya.
+3. Membantu pemula merawat tanaman dengan cara yang mudah dan interaktif.
+4. Menyediakan monitoring status tanaman melalui UART ke PC, memungkinkan pengguna untuk melihat data kelembapan tanah secara real-time di komputer.
+
 ## Supported by :
 >- Dosen Pengampu : Akhmad Hendriawan, S.T., M.T.
 >- Mata kuliah : Workshop Mikrokontroller
