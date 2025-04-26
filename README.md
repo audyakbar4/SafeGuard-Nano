@@ -21,9 +21,9 @@ MoodPot dibuat untuk semua kalangan—baik pemula maupun pecinta tanaman berpeng
 |      NRP      |       Nama      |    Jobdesk    |
 | :-----------:|:----------------:| :------------:|
 |2123500003|Audy Putra Pratama Akbar|UI/UX Designer|
-|2123500007|Muhammad Faizulhaq R|Unknown|
+|2123500007|Muhammad Faizulhaq R|Hardware|
 |2123500010|Zanuar Rachmat Yusril BP|3D Designer|
-|2123500014|Ahmad Hafidz Iswananda S|Hardware|
+|2123500014|Ahmad Hafidz Iswananda S|Project Manager/Hardware|
 |2123500027|Ingka Fitra Oemardi|Programmer|
 
 
@@ -34,18 +34,19 @@ MoodPot dibuat untuk semua kalangan—baik pemula maupun pecinta tanaman berpeng
 ## Komponen Yang Digunakan
 
 ### Hardware
-- Arduino Nano
-- Sensor PIR
-- SW420
+- Arduino Uno
+- Sensor Kelembapan
+- Relay
+- Baterai 18650
 - LED
-- Reed Switch
+- Pompa DC 12V
 
 
 ### Software
 - Figma
 - Kicad
-- 
-- 
+- TinkerCAD
+- Visual Studio Code
 - 
 - 
 
