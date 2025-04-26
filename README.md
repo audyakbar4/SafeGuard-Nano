@@ -2,7 +2,14 @@
 
 <img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/IMG-20250426-WA0019.jpg" width="85" height="85">
 
-## Halo
+## 🌱Background - ModdPot
+Merawat tanaman sering kali menjadi tantangan bagi sebagian orang, terutama mereka yang sibuk atau tidak terbiasa mengenali kebutuhan dasar tanaman, seperti kapan harus disiram. Salah satu penyebab umum tanaman layu atau mati adalah kurangnya perhatian terhadap kelembapan tanah.
+
+MoodPot hadir sebagai solusi sederhana namun efektif untuk menjawab masalah tersebut. Dengan mengandalkan sensor kelembapan tanah, MoodPot mampu mendeteksi tingkat kekeringan media tanam dan menerjemahkannya ke dalam ekspresi visual yang ditampilkan melalui layar LCD.
+
+Jika tanah terlalu kering, LCD akan menampilkan ekspresi cemberut sebagai sinyal bahwa tanaman perlu disiram. Sebaliknya, saat kondisi tanah ideal, wajah pada LCD akan tersenyum. Pendekatan ini tidak hanya fungsional, tetapi juga memberikan pengalaman interaktif yang menyenangkan, sehingga pengguna lebih peduli dan terlibat dalam merawat tanamannya.
+
+MoodPot dibuat untuk semua kalangan—baik pemula maupun pecinta tanaman berpengalaman—dengan tujuan untuk menjadikan kegiatan berkebun lebih mudah, menyenangkan, dan komunikatif.
 
 ## Supported by :
 >- Dosen Pengampu : Akhmad Hendriawan, S.T., M.T.
