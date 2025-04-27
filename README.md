@@ -1,6 +1,6 @@
 # MoodPot - "Happy Plant, Happy You."
 
-<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/IMG-20250426-WA0019.jpg" width="85" height="85">
+<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/brandinglogo.jpg" width="85" height="85">
 
 ## 🌱Background - ModdPot
 Merawat tanaman sering kali menjadi tantangan bagi sebagian orang, terutama mereka yang sibuk atau tidak terbiasa mengenali kebutuhan dasar tanaman, seperti kapan harus disiram. Salah satu penyebab umum tanaman layu atau mati adalah kurangnya perhatian terhadap kelembapan tanah.
