@@ -1,1 +1,65 @@
-Dikosongin
+#define F_CPU 16000000UL  // Arduino Uno clock 16MHz
+#include <avr/io.h>
+#include <util/delay.h>
+
+// Define pin relay di PORTD Pin 7 (Digital Pin 7 Arduino)
+#define RELAY_PORT PORTD
+#define RELAY_DDR DDRD
+#define RELAY_PIN PD7
+
+// ADC channel
+#define SOIL_SENSOR_CHANNEL 0   // A0
+#define WATER_SENSOR_CHANNEL 1  // A1
+
+// Thresholds
+#define SOIL_THRESHOLD 400
+#define WATER_THRESHOLD 500
+
+// Function to initialize ADC
+void ADC_init() {
+    ADMUX = (1 << REFS0); // AVcc as reference, ADC0 by default
+    ADCSRA = (1 << ADEN) | (1 << ADPS2) | (1 << ADPS1); // Enable ADC, Prescaler = 64
+}
+
+// Function to read ADC value
+uint16_t ADC_read(uint8_t channel) {
+    ADMUX = (ADMUX & 0xF0) | (channel & 0x0F); // select ADC channel with safety mask
+    ADCSRA |= (1 << ADSC); // Start single conversion
+    while (ADCSRA & (1 << ADSC)); // Wait until conversion complete
+    return ADC;
+}
+
+// Function to initialize relay pin
+void Relay_init() {
+    RELAY_DDR |= (1 << RELAY_PIN); // set relay pin as output
+}
+
+// Function to turn relay ON
+void Relay_on() {
+    RELAY_PORT |= (1 << RELAY_PIN);
+}
+
+// Function to turn relay OFF
+void Relay_off() {
+    RELAY_PORT &= ~(1 << RELAY_PIN);
+}
+
+int main(void) {
+    // Initialization
+    ADC_init();
+    Relay_init();
+    Relay_off(); // start with relay OFF
+
+    while (1) {
+        uint16_t soilMoisture = ADC_read(SOIL_SENSOR_CHANNEL);
+        uint16_t waterLevel = ADC_read(WATER_SENSOR_CHANNEL);
+
+        if (soilMoisture > SOIL_THRESHOLD && waterLevel < WATER_THRESHOLD) {
+            Relay_on(); // Tanah kering, air belum cukup -> Pompa hidup
+        } else {
+            Relay_off(); // Tanah basah atau air sudah cukup -> Pompa mati
+        }
+
+        _delay_ms(2000); // delay baca sensor
+    }
+}Dikosongin
