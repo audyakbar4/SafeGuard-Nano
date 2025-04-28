@@ -34,7 +34,7 @@ MoodPot dibuat untuk semua kalangan—baik pemula maupun pecinta tanaman berpeng
 
 
 ## Blok Diagram Sistem
-<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/Bagsssan%20SafeGuard.png">
+<img src="[https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/Bagsssan%20SafeGuard.png](https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/blok-sistem.png)">
 
 
 ## Komponen Yang Digunakan
