@@ -1,6 +1,7 @@
 # 🌱 MoodPot — *"Happy Plant, Happy You."*
 
 <img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/Banner.png">
+<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/Team%20Member.png">
 
 ---
 
