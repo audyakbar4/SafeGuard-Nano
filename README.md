@@ -36,6 +36,25 @@ MoodPot dibuat untuk semua kalangan—baik pemula maupun pecinta tanaman berpeng
 ## Blok Diagram Sistem
 <img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/blok-sistem.png">
 
+##Prinsip Kerja
+Pembacaan Kelembapan Tanah:
+1. Sensor kelembapan tanah (soil moisture sensor) ditancapkan ke dalam pot.
+2. Sensor ini mengukur kadar air di tanah dan mengirimkan sinyal analog ke pin Arduino.
+3. Nilai analog ini akan rendah jika tanah basah, dan tinggi jika tanah kering (tergantung jenis sensor).
+
+Pemrosesan Data oleh Arduino:
+1. Arduino membaca nilai dari sensor secara berkala.
+2. Arduino membandingkan nilai tersebut dengan batas tertentu (threshold) untuk menentukan apakah tanah sedang kering atau tidak.
+
+Feedback Visual via LED Matrix:
+1. Jika tanah basah → LED Matrix menampilkan wajah senang 😊.
+2. Jika tanah kering → LED Matrix menampilkan wajah sedih 😢.
+3. Ini menciptakan “mood” dari pot, makanya disebut Moodpot.
+
+Kontrol Penyiraman via Relay dan Pompa:
+1. Jika tanah kering, Arduino akan mengaktifkan relay, yang menyalakan pompa air kecil.
+2. Pompa menyiram tanah sampai nilai kelembapan naik melewati threshold.
+3. Setelah tanah cukup basah, relay mati, dan pompa berhenti.
 
 ## Komponen Yang Digunakan
 
