@@ -36,7 +36,7 @@ MoodPot dibuat untuk semua kalangan—baik pemula maupun pecinta tanaman berpeng
 ## Blok Diagram Sistem
 <img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/blok-sistem.png">
 
-##Prinsip Kerja
+## Prinsip Kerja
 Pembacaan Kelembapan Tanah:
 1. Sensor kelembapan tanah (soil moisture sensor) ditancapkan ke dalam pot.
 2. Sensor ini mengukur kadar air di tanah dan mengirimkan sinyal analog ke pin Arduino.
