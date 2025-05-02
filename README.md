@@ -1,79 +1,120 @@
-# MoodPot - "Happy Plant, Happy You."
+# 🌱 MoodPot — *"Happy Plant, Happy You."*
 
 <img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/brandinglogo.jpg" width="85" height="85">
 
-## 🌱Background - ModdPot
-Merawat tanaman sering kali menjadi tantangan bagi sebagian orang, terutama mereka yang sibuk atau tidak terbiasa mengenali kebutuhan dasar tanaman, seperti kapan harus disiram. Salah satu penyebab umum tanaman layu atau mati adalah kurangnya perhatian terhadap kelembapan tanah.
+---
 
-MoodPot hadir sebagai solusi sederhana namun efektif untuk menjawab masalah tersebut. Dengan mengandalkan sensor kelembapan tanah, MoodPot mampu mendeteksi tingkat kekeringan media tanam dan menerjemahkannya ke dalam ekspresi visual yang ditampilkan melalui layar LCD.
+## 📘 Overview
 
-Jika tanah terlalu kering, LCD akan menampilkan ekspresi cemberut sebagai sinyal bahwa tanaman perlu disiram. Sebaliknya, saat kondisi tanah ideal, wajah pada LCD akan tersenyum. Pendekatan ini tidak hanya fungsional, tetapi juga memberikan pengalaman interaktif yang menyenangkan, sehingga pengguna lebih peduli dan terlibat dalam merawat tanamannya.
+**MoodPot** adalah pot pintar berbasis Arduino yang mampu membaca kelembapan tanah dan merespons dengan ekspresi wajah melalui LED Matrix. Saat tanah kering, MoodPot menampilkan wajah sedih dan otomatis menyiram tanaman menggunakan pompa air kecil. Saat tanah cukup lembap, MoodPot menampilkan wajah senang.
 
-MoodPot dibuat untuk semua kalangan—baik pemula maupun pecinta tanaman berpengalaman—dengan tujuan untuk menjadikan kegiatan berkebun lebih mudah, menyenangkan, dan komunikatif.
+Dengan pendekatan visual dan otomatisasi, MoodPot bertujuan untuk menjadikan kegiatan merawat tanaman lebih menyenangkan, komunikatif, dan mudah, terutama bagi pemula.
 
-## Tujuan
-1. Mendeteksi kelembapan tanah secara otomatis menggunakan sensor.
-2. Memberikan feedback visual dengan ekspresi wajah (senyum/cemberut) untuk memudahkan pemilik tanaman merawatnya.
-3. Membantu pemula merawat tanaman dengan cara yang mudah dan interaktif.
-4. Menyediakan monitoring status tanaman melalui UART ke PC, memungkinkan pengguna untuk melihat data kelembapan tanah secara real-time di komputer.
+---
 
-## Supported by :
->- Dosen Pengampu : Akhmad Hendriawan, S.T., M.T.
->- Mata kuliah : Workshop Mikrokontroller
->- Program Studi : Teknik Elektronika
->- Institusi : Politeknik Elektronika Negeri Surabaya (PENS)
+## 🎯 Objectives
 
-## Team of Drasoul.Tech :
-|      NRP      |       Nama      |    Jobdesk    |
-| :-----------:|:----------------:| :------------:|
-|2123500003|Audy Putra Pratama Akbar|UI/UX Designer|
-|2123500007|Muhammad Faizulhaq R|Hardware|
-|2123500010|Zanuar Rachmat Yusril BP|3D Designer|
-|2123500014|Ahmad Hafidz Iswananda S|Project Manager/Hardware|
-|2123500027|Ingka Fitra Oemardi|Programmer|
+- 🔍 Mendeteksi kelembapan tanah secara otomatis menggunakan sensor.
+- 😊 Memberikan feedback visual (wajah senang/sedih) melalui LED Matrix.
+- 💧 Menyiram tanaman secara otomatis ketika tanah kering.
+- 💻 Menyediakan monitoring kelembapan secara real-time melalui UART ke komputer.
 
+---
 
-## Blok Diagram Sistem
+## 🧠 Background
+
+Merawat tanaman sering kali menjadi tantangan, terutama bagi orang-orang sibuk atau yang belum terbiasa dengan kebutuhan dasar tanaman. Salah satu penyebab tanaman layu adalah kurangnya perhatian terhadap kelembapan tanah.
+
+**MoodPot** memberikan solusi dengan menampilkan *"mood"* tanaman—apakah bahagia atau sedih—berdasarkan kondisi tanah, membuat pengguna lebih peduli dan terlibat.
+
+---
+
+## 🔧 Hardware Components
+
+| Komponen              | Fungsi                                |
+|----------------------|----------------------------------------|
+| Arduino Uno          | Pengontrol utama                      |
+| Sensor Kelembapan    | Membaca kadar air tanah               |
+| LED Matrix (MAX7219) | Menampilkan ekspresi wajah            |
+| Relay Module         | Mengendalikan pompa                   |
+| Pompa DC 12V         | Menyiram tanaman otomatis             |
+| Baterai 18650        | Sumber daya portabel                  |
+| LED indikator        | Penanda status sistem                 |
+
+---
+
+## 💻 Software Tools
+
+- [Arduino IDE](https://www.arduino.cc/en/software)
+- [KiCad](https://kicad.org/)
+- [Figma](https://www.figma.com/)
+- [TinkerCAD](https://www.tinkercad.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+---
+
+## 🧭 System Diagram
+
 <img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/blok-sistem.png">
 
-## Prinsip Kerja
-Pembacaan Kelembapan Tanah:
-1. Sensor kelembapan tanah (soil moisture sensor) ditancapkan ke dalam pot.
-2. Sensor ini mengukur kadar air di tanah dan mengirimkan sinyal analog ke pin Arduino.
-3. Nilai analog ini akan rendah jika tanah basah, dan tinggi jika tanah kering (tergantung jenis sensor).
+---
 
-Pemrosesan Data oleh Arduino:
-1. Arduino membaca nilai dari sensor secara berkala.
-2. Arduino membandingkan nilai tersebut dengan batas tertentu (threshold) untuk menentukan apakah tanah sedang kering atau tidak.
+## ⚙️ Working Principle
 
-Feedback Visual via LED Matrix:
-1. Jika tanah basah → LED Matrix menampilkan wajah senang 😊.
-2. Jika tanah kering → LED Matrix menampilkan wajah sedih 😢.
-3. Ini menciptakan “mood” dari pot, makanya disebut Moodpot.
+### 🔍 Pembacaan Kelembapan
+- Sensor kelembapan tanah mengirim sinyal analog ke Arduino.
+- Nilai tinggi → tanah kering; nilai rendah → tanah basah.
 
-Kontrol Penyiraman via Relay dan Pompa:
-1. Jika tanah kering, Arduino akan mengaktifkan relay, yang menyalakan pompa air kecil.
-2. Pompa menyiram tanah sampai nilai kelembapan naik melewati threshold.
-3. Setelah tanah cukup basah, relay mati, dan pompa berhenti.
+### 🧠 Pemrosesan oleh Arduino
+- Arduino membaca sensor secara berkala dan membandingkan dengan nilai *threshold*.
+- Keputusan diambil untuk menyiram atau tidak.
 
-## Komponen Yang Digunakan
+### 😃 Feedback Visual
+- Tanah basah → LED Matrix menampilkan wajah senang 😊
+- Tanah kering → LED Matrix menampilkan wajah sedih 😢
 
-### Hardware
-- Arduino Uno
-- Sensor Kelembapan
-- Relay
-- Baterai 18650
-- LED
-- Pompa DC 12V
+### 💧 Penyiraman Otomatis
+- Jika tanah kering, relay mengaktifkan pompa air.
+- Setelah tanah cukup lembap, pompa dimatikan otomatis.
 
+---
 
-### Software
-- Figma
-- Kicad
-- TinkerCAD
-- Visual Studio Code
-- 
-- 
+## 👨‍💻 Team — Drasoul.Tech
 
+| NRP         | Nama Lengkap                    | Tanggung Jawab               |
+|-------------|----------------------------------|------------------------------|
+| 2123500003  | Audy Putra Pratama Akbar        | UI/UX Designer               |
+| 2123500007  | Muhammad Faizulhaq R            | Hardware                     |
+| 2123500010  | Zanuar Rachmat Yusril B.P.      | 3D Designer                  |
+| 2123500014  | Ahmad Hafidz Iswananda S        | Project Manager / Hardware  |
+| 2123500027  | Ingka Fitra Oemardi             | Programmer                   |
 
+---
 
+## 🎓 Supported by
+
+- 👨‍🏫 Dosen Pengampu: Akhmad Hendriawan, S.T., M.T.
+- 📚 Mata Kuliah: Workshop Mikrokontroler
+- 🏫 Institusi: Politeknik Elektronika Negeri Surabaya (PENS)
+- 🧑‍🔧 Program Studi: Teknik Elektronika
+
+---
+
+## ✅ Future Improvements
+
+- [ ] Tambahkan koneksi Bluetooth untuk kontrol dari HP
+- [ ] Implementasi OLED display untuk info lebih lengkap
+- [ ] Desain casing 3D cetak
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
+
+---
+
+## 🙏 Credits
+
+Developed with 💚 by **Drasoul.Tech**  
+A project to bring life, tech, and plants together 🌿
