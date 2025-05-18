@@ -65,6 +65,9 @@ Merawat tanaman sering kali menjadi tantangan, terutama bagi orang-orang sibuk a
 ## 🧭 System Diagram
 
 <img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/blok-sistem.png">
+<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/PCB%20Design/Screenshot%202025-05-16%20211504.png">
+<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/PCB%20Design/Screenshot%202025-05-16%20211519.png">
+<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/PCB%20Design/Screenshot%202025-05-16%20213700.png">
 
 ---
 
