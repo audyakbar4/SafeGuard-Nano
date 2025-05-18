@@ -38,6 +38,25 @@ Merawat tanaman sering kali menjadi tantangan, terutama bagi orang-orang sibuk a
 
 ---
 
+## 🖼️ Preview Presentasi
+
+[![Lihat Presentasi](https://img.shields.io/badge/Lihat-Presentasi-blue?style=for-the-badge&logo=canva)](https://www.canva.com/design/DAGlx_uOutM/ZLQWICtEFxtw9B-cfxxKvQ/edit?utm_content=DAGlx_uOutM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+> Klik tombol di atas untuk membuka presentasi secara penuh di Canva.
+
+---
+
+## 🧾 Daftar Isi Presentasi
+
+1. Latar Belakang & Masalah
+2. Konsep MoodPot
+3. Komponen yang Digunakan
+4. Diagram Sistem
+5. Demo & Visualisasi
+6. Manfaat dan Pengembangan
+
+---
+
 ## 🔧 Hardware Components
 
 | Komponen              | Fungsi                                |
