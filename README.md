@@ -7,9 +7,17 @@
 
 ## 📘 Overview
 
-**MoodPot** adalah pot pintar berbasis Arduino yang mampu membaca kelembapan tanah dan merespons dengan ekspresi wajah melalui LED Matrix. Saat tanah kering, MoodPot menampilkan wajah sedih dan otomatis menyiram tanaman menggunakan pompa air kecil. Saat tanah cukup lembap, MoodPot menampilkan wajah senang.
+🌱 MoodPot – Ketika Tanaman Bisa Bercerita Lewat Ekspresi
 
-Dengan pendekatan visual dan otomatisasi, MoodPot bertujuan untuk menjadikan kegiatan merawat tanaman lebih menyenangkan, komunikatif, dan mudah, terutama bagi pemula.
+Pernah merasa bersalah karena lupa menyiram tanaman? Atau bingung kapan waktunya menyiram? MoodPot hadir sebagai sahabat tanaman yang bisa berbicara padamu lewat ekspresi wajah.
+
+Bayangkan kamu pulang ke rumah setelah hari yang melelahkan. Di pojok ruangan, tanaman kesayanganmu sedang “menatap” dengan wajah sedih. Bukan karena marah—tapi karena ia haus. Tapi tenang, MoodPot sudah tahu apa yang harus dilakukan. Ia otomatis menyalakan pompa kecil dan memberi tanamanmu minuman yang dibutuhkannya.
+
+Beberapa saat kemudian, wajahnya berubah ceria. Tanahnya lembap kembali, dan tanamanmu pun bahagia.
+
+MoodPot bukan sekadar pot bunga. Ia adalah teman kecil yang mengingatkan kita bahwa merawat tanaman bisa menjadi pengalaman yang menyenangkan, komunikatif, dan penuh empati—bahkan untuk pemula sekalipun. Dengan sensor kelembapan tanah, ekspresi LED Matrix yang menggemaskan, dan sistem penyiraman otomatis, MoodPot menjadikan setiap interaksi kecil terasa berarti.
+
+Karena tanaman juga punya cara untuk menyampaikan perasaannya—dan MoodPot menerjemahkannya untukmu.
 
 ---
 
