@@ -86,15 +86,15 @@ Merawat tanaman sering kali menjadi tantangan, terutama bagi orang-orang sibuk a
 
 ## Schematic
 
-<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/PCB%20Design/Screenshot%202025-05-16%20211504.png">
+<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/PCB%20Design/Schematic.png">
 
 ## Layout
 
-<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/PCB%20Design/Screenshot%202025-05-16%20211519.png">
+<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/PCB%20Design/Layout.png">
 
 ## 3D PCB
 
-<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/PCB%20Design/Screenshot%202025-05-16%20213700.png">
+<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/PCB%20Design/3D%20Viewer%20PCB.png">
 
 ---
 
