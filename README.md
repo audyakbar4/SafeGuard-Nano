@@ -98,8 +98,8 @@ Merawat tanaman sering kali menjadi tantangan, terutama bagi orang-orang sibuk a
 
 ---
 
-## [Lihat simulasi di Wokwi](https://wokwi.com/projects/123456789012345678)
- Link Wokwi
+## [![Wokwi](https://img.shields.io/badge/Wokwi-Simulation-green?logo=arduino)](https://wokwi.com/projects/YOUR_PROJECT_ID)
+
 
 https://wokwi.com/projects/431816390638291969
 
