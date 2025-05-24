@@ -101,6 +101,8 @@ Merawat tanaman sering kali menjadi tantangan, terutama bagi orang-orang sibuk a
 https://wokwi.com/projects/431816390638291969
 ## ⚙️ Working Principle
 
+---
+
 ### 🔍 Pembacaan Kelembapan
 - Sensor kelembapan tanah mengirim sinyal analog ke Arduino.
 - Nilai tinggi → tanah kering; nilai rendah → tanah basah.
