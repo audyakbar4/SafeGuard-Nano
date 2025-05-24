@@ -1,92 +1,92 @@
-#include <LedControl.h>  // Library untuk MAX7219
+#include <LedControl.h>  // Library untuk kontrol MAX7219
 
-// Pin konfigurasi
+// Konfigurasi pin
 const int sensorPin = A0;
-const int pumpPin = 3;//D3
-const int dinPin = 11;//D11
-const int clkPin = 13;//D13
-const int csPin = 10//;D10
+const int pumpPin = 3;      // Output untuk pompa
+const int dinPin = 11;      // DIN pada MAX7219
+const int clkPin = 13;      // CLK pada MAX7219
+const int csPin  = 10;      // CS/LOAD pada MAX7219
 
-LedControl lc = LedControl(dinPin, clkPin, csPin, 1); // Hanya 1 matrix
+LedControl lc = LedControl(dinPin, clkPin, csPin, 1); // 1 modul MAX7219
 
 void setup() {
   Serial.begin(9600);
   pinMode(pumpPin, OUTPUT);
   digitalWrite(pumpPin, LOW);
 
+  // Inisialisasi LED matrix
   lc.shutdown(0, false);
-  lc.setIntensity(0, 8);
+  lc.setIntensity(0, 8);    // Kecerahan (0–15)
   lc.clearDisplay(0);
 }
 
 void loop() {
   int moisture = analogRead(sensorPin);
-  Serial.print("Kelembapan: ");
-  Serial.println(moisture);
+  int moisturePercent = map(moisture, 0, 1023, 100, 0); // Konversi ke % (0–100)
 
-  if (moisture > 700) {
-    // KERING
+  Serial.println(moisturePercent); // Tampilkan hanya angka
+
+  if (moisturePercent <= 20) {
     digitalWrite(pumpPin, HIGH);
-    showSadFace();
-  } else if (moisture >= 400 && moisture <= 700) {
-    // NORMAL
+    showSadFace();     // Kering
+  } else if (moisturePercent >20 && moisturePercent <= 40) {
     digitalWrite(pumpPin, LOW);
-    showNeutralFace();
+    showNeutralFace(); // Normal
   } else {
-    // BASAH
     digitalWrite(pumpPin, LOW);
-    showHappyFace();
+    showHappyFace();   // Basah
   }
 
-  delay(1000); // Delay 1 detik
+  delay(1000); // Update setiap detik
 }
 
-// Fungsi menampilkan wajah sedih
+// Fungsi tampilan wajah
 void showSadFace() {
   byte sadFace[8] = {
-    B00111100,
-    B01000010,
-    B10100101,
-    B10000001,
-    B10100101,
-    B10011001,
-    B01000010,
-    B00111100
+  B01100110,
+  B10011001,
+  B00000000,
+  B00011000,
+  B00000000,
+  B00000000,
+  B01111110,
+  B10000001
+
+
   };
   displayMatrix(sadFace);
 }
 
-// Fungsi menampilkan wajah datar
 void showNeutralFace() {
   byte neutralFace[8] = {
-    B00111100,
-    B01000010,
-    B10100101,
-    B10000001,
-    B10100101,
-    B10000001,
-    B01000010,
-    B00111100
+  B00000000,
+  B11100111,
+  B11100111,
+  B10000001,
+  B00111100,
+  B00000000,
+  B01111110,
+  B01111110
+
   };
   displayMatrix(neutralFace);
 }
 
-// Fungsi menampilkan wajah senyum
 void showHappyFace() {
   byte happyFace[8] = {
-    B00111100,
-    B01000010,
-    B10100101,
-    B10000001,
-    B10011001,
-    B10100101,
-    B01000010,
-    B00111100
+  B01000010,
+  B10100101,
+  B01000010,
+  B00011000,
+  B00011000,
+  B00000000,
+  B01000010,
+  B00111100
   };
   displayMatrix(happyFace);
 }
 
-// Menampilkan array ke LED matrix
+// Kirim array ke LED matrix
 void displayMatrix(byte face[8]) {
   for (int i = 0; i < 8; i++) {
     lc.setRow(0, i, face[i]);
