@@ -1,48 +1,14 @@
-#include <LedControl.h>  // Library untuk kontrol MAX7219
-
 // Konfigurasi pin
 const int sensorPin = A0;
-const int pumpPin = 3;      // Output untuk pompa
-const int dinPin = 11;      // DIN pada MAX7219
-const int clkPin = 13;      // CLK pada MAX7219
-const int csPin  = 10;      // CS/LOAD pada MAX7219
+const int pumpPin = 3;
+const int dinPin = 11;  // Data In ke MAX7219
+const int clkPin = 13;  // Clock ke MAX7219
+const int csPin  = 10;  // Load (CS) ke MAX7219
 
-LedControl lc = LedControl(dinPin, clkPin, csPin, 1); // 1 modul MAX7219
-
-void setup() {
-  Serial.begin(9600);
-  pinMode(pumpPin, OUTPUT);
-  digitalWrite(pumpPin, LOW);
-
-  // Inisialisasi LED matrix
-  lc.shutdown(0, false);
-  lc.setIntensity(0, 8);    // Kecerahan (0–15)
-  lc.clearDisplay(0);
-}
-
-void loop() {
-  int moisture = analogRead(sensorPin);
-  int moisturePercent = map(moisture, 0, 1023, 100, 0); // Konversi ke % (0–100)
-
-  Serial.println(moisturePercent); // Tampilkan hanya angka
-
-  if (moisturePercent <= 20) {
-    digitalWrite(pumpPin, HIGH);
-    showSadFace();     // Kering
-  } else if (moisturePercent >20 && moisturePercent <= 40) {
-    digitalWrite(pumpPin, LOW);
-    showNeutralFace(); // Normal
-  } else {
-    digitalWrite(pumpPin, LOW);
-    showHappyFace();   // Basah
-  }
-
-  delay(1000); // Update setiap detik
-}
-
-// Fungsi tampilan wajah
-void showSadFace() {
-  byte sadFace[8] = {
+// =============================
+// === Data Wajah (8x8 row) ===
+// =============================
+byte sadFace[8] = {
   B01100110,
   B10011001,
   B00000000,
@@ -51,29 +17,20 @@ void showSadFace() {
   B00000000,
   B01111110,
   B10000001
+};
 
-
-  };
-  displayMatrix(sadFace);
-}
-
-void showNeutralFace() {
-  byte neutralFace[8] = {
+byte neutralFace[8] = {
   B00000000,
   B11100111,
   B11100111,
-  B10000001,
+  B00000000,
   B00111100,
   B00000000,
   B01111110,
   B01111110
+};
 
-  };
-  displayMatrix(neutralFace);
-}
-
-void showHappyFace() {
-  byte happyFace[8] = {
+byte happyFace[8] = {
   B01000010,
   B10100101,
   B01000010,
@@ -82,13 +39,68 @@ void showHappyFace() {
   B00000000,
   B01000010,
   B00111100
-  };
-  displayMatrix(happyFace);
+};
+
+void setup() {
+  Serial.begin(9600);
+
+  pinMode(pumpPin, OUTPUT);
+  digitalWrite(pumpPin, LOW);
+
+  pinMode(dinPin, OUTPUT);
+  pinMode(clkPin, OUTPUT);
+  pinMode(csPin, OUTPUT);
+  digitalWrite(csPin, HIGH);
+
+  initMAX7219();
 }
 
-// Kirim array ke LED matrix
-void displayMatrix(byte face[8]) {
-  for (int i = 0; i < 8; i++) {
-    lc.setRow(0, i, face[i]);
+void loop() {
+  int moisture = analogRead(sensorPin);
+  int moisturePercent = map(moisture, 0, 1023, 100, 0);
+  Serial.println(moisturePercent);
+
+  if (moisturePercent <= 20) {
+    digitalWrite(pumpPin, HIGH);
+    showFace(sadFace);
+  } else if (moisturePercent > 20 && moisturePercent <= 40) {
+    digitalWrite(pumpPin, LOW);
+    showFace(neutralFace);
+  } else {
+    digitalWrite(pumpPin, LOW);
+    showFace(happyFace);
+  }
+
+  delay(1000);
+}
+
+// ==============================
+// === Fungsi Display Matrix ====
+// ==============================
+void showFace(byte face[8]) {
+  for (byte i = 0; i < 8; i++) {
+    sendCommand(i + 1, face[i]); // Baris 1–8 (MAX7219 pakai 1–8, bukan 0–7)
+  }
+}
+
+void sendCommand(byte address, byte data) {
+  digitalWrite(csPin, LOW);
+  shiftOut(dinPin, clkPin, MSBFIRST, address);
+  shiftOut(dinPin, clkPin, MSBFIRST, data);
+  digitalWrite(csPin, HIGH);
+}
+
+void initMAX7219() {
+  sendCommand(0x09, 0x00); // Decode Mode: none
+  sendCommand(0x0A, 0x08); // Intensity: 8 (0–15)
+  sendCommand(0x0B, 0x07); // Scan limit = 8 LEDs
+  sendCommand(0x0C, 0x01); // Exit shutdown mode
+  sendCommand(0x0F, 0x00); // Display test = off
+  clearDisplay();
+}
+
+void clearDisplay() {
+  for (byte i = 1; i <= 8; i++) {
+    sendCommand(i, 0x00);
   }
 }
