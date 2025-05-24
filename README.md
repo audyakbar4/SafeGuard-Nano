@@ -98,7 +98,7 @@ Merawat tanaman sering kali menjadi tantangan, terutama bagi orang-orang sibuk a
 
 ---
 
-## ![Tampilan Proyek](![w](https://github.com/user-attachments/assets/91cbf1a9-cff5-4e58-87c6-ecb2c8435a50)
+##(![w](https://github.com/user-attachments/assets/91cbf1a9-cff5-4e58-87c6-ecb2c8435a50)
 )
  Link Wokwi
 
