@@ -170,13 +170,12 @@ This project is licensed under the MIT License — see the [LICENSE](./LICENSE) 
 Developed with 💚 by **Drasoul.Tech**  
 A project to bring life, tech, and plants together 🌿
 
-## 📬 Contact
+### 📫 Contact Information
 
-Jika kamu memiliki pertanyaan, masukan, atau ingin berkolaborasi dalam proyek ini, jangan ragu untuk menghubungi saya:
+For inquiries related to this project — including collaborations, technical questions, or professional opportunities — feel free to reach out via email:
 
-- 📧 Email: [yourname@example.com](mailto:yourname@example.com)  
-- 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)  
-- 💼 LinkedIn: [Your Name](https://www.linkedin.com/in/yourname)  
-- 🌐 Website/Portfolio: [yourwebsite.com](https://yourwebsite.com)  
-- 📁 GitHub: [@yourusername](https://github.com/yourusername)
+**📧 Email:** [yourname@example.com](mailto:yourname@example.com)
+
+I aim to respond within 1–2 business days. Please include the project name in your subject line for faster reference.
+
 
