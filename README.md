@@ -170,7 +170,7 @@ This project is licensed under the MIT License — see the [LICENSE](./LICENSE) 
 Developed with 💚 by **Drasoul.Tech**  
 A project to bring life, tech, and plants together 🌿
 
-### 📫 Contact Information
+## 📫 Contact Information
 
 For inquiries related to this project — including collaborations, technical questions, or professional opportunities — feel free to reach out via email:
 
