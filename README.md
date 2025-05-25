@@ -5,7 +5,7 @@
 
 ---
 
-## 🎬 Demo Video
+## 🎬 Commercial Video
 
 [![Watch the demo](https://img.youtube.com/vi/MjPV3MSSsJY/0.jpg)](https://youtu.be/MjPV3MSSsJY)
 
