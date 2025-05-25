@@ -10,4 +10,4 @@ Selamat datang di repositori ini! Berikut adalah hasil desain antarmuka pengguna
 
 ## 🌐 Online Web
 just website maybe for commercial propose
-👉 [yourwebsite.com](moodpot.streamlit.app)
+👉 [moodpot.streamlit.app](moodpot.streamlit.app)
