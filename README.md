@@ -5,6 +5,11 @@
 
 ---
 
+## 🎬 Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://youtu.be/MjPV3MSSsJY)
+
+
 ## 📘 Overview
 
 🌱 MoodPot – Ketika Tanaman Bisa Bercerita Lewat Ekspresi
