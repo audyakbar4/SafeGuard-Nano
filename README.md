@@ -113,11 +113,14 @@ Merawat tanaman sering kali menjadi tantangan, terutama bagi orang-orang sibuk a
 📁 **Dokumentasi Proyek (Google Drive)**  
 [https://drive.google.com/drive/folders/1F2bn2rR7vp30GGokSu8VewNVUbs7nqkA?usp=drive_link](https://drive.google.com/drive/folders/1F2bn2rR7vp30GGokSu8VewNVUbs7nqkA?usp=drive_link)
 
-## 📄 Tutorial Desain 3D
+## 📄 Desain 3D
 
 📁 **Tutorial Desain 3D (Google Drive)**
 
 [👉 Klik di sini untuk membuka folder Google Drive](https://drive.google.com/drive/folders/1GnPXin400DgNMjtPwBu-FTDF2DJWISpB?usp=drive_link)
+
+🔗 **Desain 3D Vol 1**  
+https://www.thingiverse.com/thing:7030558
 
 ---
 
