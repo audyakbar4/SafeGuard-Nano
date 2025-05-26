@@ -29,7 +29,7 @@ Karena tanaman juga punya cara untuk menyampaikan perasaannya—dan MoodPot mene
 ## 🎯 Objectives
 
 - 🔍 Mendeteksi kelembapan tanah secara otomatis menggunakan sensor.
-- 😊 Memberikan feedback visual (wajah senang/sedih) melalui LED Matrix.
+- 😊 Memberikan feedback visual (wajah senang/datar/sedih) melalui LED Matrix.
 - 💧 Menyiram tanaman secara otomatis ketika tanah kering.
 - 💻 Menyediakan monitoring kelembapan secara real-time melalui UART ke komputer.
 
