@@ -138,8 +138,9 @@ https://www.thingiverse.com/thing:7048423
 - Keputusan diambil untuk menyiram atau tidak.
 
 ### 😃 Feedback Visual
-- Tanah basah → LED Matrix menampilkan wajah senang 😊
-- Tanah kering → LED Matrix menampilkan wajah sedih 😢
+- Tanah basah  → LED Matrix menampilkan wajah senang 😊
+- Tanah Sedang → LED Matrix menampilkan wajah Datar  😑
+- Tanah kering → LED Matrix menampilkan wajah sedih  😢
 
 ### 💧 Penyiraman Otomatis
 - Jika tanah kering, relay mengaktifkan pompa air.
