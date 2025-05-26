@@ -81,6 +81,7 @@ Merawat tanaman sering kali menjadi tantangan, terutama bagi orang-orang sibuk a
 - [KiCad](https://kicad.org/)
 - [Figma](https://www.figma.com/)
 - [TinkerCAD](https://www.tinkercad.com/)
+- [Thingiverse](https://www.thingiverse.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 ---
