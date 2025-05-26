@@ -39,7 +39,7 @@ Karena tanaman juga punya cara untuk menyampaikan perasaannya—dan MoodPot mene
 
 Merawat tanaman sering kali menjadi tantangan, terutama bagi orang-orang sibuk atau yang belum terbiasa dengan kebutuhan dasar tanaman. Salah satu penyebab tanaman layu adalah kurangnya perhatian terhadap kelembapan tanah.
 
-**MoodPot** memberikan solusi dengan menampilkan *"mood"* tanaman—apakah bahagia atau sedih—berdasarkan kondisi tanah, membuat pengguna lebih peduli dan terlibat.
+**MoodPot** memberikan solusi dengan menampilkan *"mood"* tanaman—apakah bahagia, cukup, atau sedih—berdasarkan kondisi tanah, membuat pengguna lebih peduli dan terlibat.
 
 ---
 
