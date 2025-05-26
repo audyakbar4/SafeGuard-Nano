@@ -122,6 +122,9 @@ Merawat tanaman sering kali menjadi tantangan, terutama bagi orang-orang sibuk a
 🔗 **Desain 3D Vol 1**  
 https://www.thingiverse.com/thing:7030558
 
+🔗 **Desain 3D Vol 2**  
+https://www.thingiverse.com/thing:7048423
+
 ---
 
 ## ⚙️ Working Principle
