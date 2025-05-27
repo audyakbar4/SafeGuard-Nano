@@ -1,6 +1,6 @@
 # 🌱 MoodPot — *"Happy Plant, Happy You."*
 
-[🇮🇩 Baca dalam Bahasa Indonesia](README.md) | [🌐 Read in English](README_EN.md)
+[Baca dalam Bahasa Indonesia](README.md) | [🌐 Read in English](README_EN.md)
 
 
 <img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/Banner.png">
