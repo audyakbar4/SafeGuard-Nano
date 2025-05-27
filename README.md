@@ -188,7 +188,16 @@ MoodPot dikirim dalam kondisi siap pakai (plug and play). Berikut langkah cepat 
 | 2123500027  | Ingka Fitra Oemardi             | Programmer                   |
 
 ---
+## 🌍 Showcase 
 
+- 📢 Dipresentasikan di **PENS Workshop Mikrokontroler 2025**
+- 🌟 Ditampilkan dalam demo terbuka oleh dosen pembimbing
+- 👨‍🏫 Mendapat feedback positif dari pengajar dan rekan sejawat
+
+📸 Dokumentasi Kegiatan:
+[👉 Klik di sini untuk melihat dokumentasi](https://drive.google.com/drive/folder-link)
+
+---
 ## 🎓 Supported by
 
 - 👨‍🏫 Dosen Pengampu: Akhmad Hendriawan, S.T., M.T.
