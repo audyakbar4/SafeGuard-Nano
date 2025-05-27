@@ -148,6 +148,34 @@ https://www.thingiverse.com/thing:7048423
 - Setelah tanah cukup lembap, pompa dimatikan otomatis.
 
 ---
+## 🚀 Quick Start
+
+MoodPot dikirim dalam kondisi siap pakai (plug and play). Berikut langkah cepat untuk langsung menggunakannya:
+
+### 🪴 Langkah Penggunaan MoodPot:
+
+1. **Isi Tangki Air**
+   - siapkan wadah untuk tangki air, isi wadah air hingga penuh kemudian masukkan dc pump / pompa air kedalam wadah yang sudah terisi dengan air.
+
+2. **Colokkan Power**
+   - Sambungkan MoodPot ke sumber daya menggunakan kabel USB atau baterai 2S 18650 bawaan.
+
+3. **Tancapkan Sensor ke Tanah**
+   - Pastikan sensor kelembapan sudah tertancap di dalam tanah pada pot tanaman kamu.
+
+4. **Lihat Ekspresi Wajah**
+   - MoodPot akan langsung menyala dan menampilkan ekspresi wajah:
+     - 😊 Bahagia → Tanah lembap, tidak perlu disiram
+     - 😐 Netral → Tanah mulai mengering, bersiap menyiram
+     - 😢 Sedih → Tanah kering, pompa menyiram otomatis
+
+5. **Selesai**
+   - MoodPot akan bekerja otomatis 24/7 tanpa perlu pengaturan manual.
+
+> 💡 Tips: Periksa tangki air setiap beberapa hari agar tidak kehabisan air.
+
+
+---
 
 ## 👨‍💻 Team — Drasoul.Tech
 
