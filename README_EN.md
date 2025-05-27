@@ -65,12 +65,12 @@ Caring for plants can be a challenge, especially for busy people or those unfami
 
 | Component             | Function                       |
 | --------------------- | ------------------------------ |
-| Arduino Nano          | Main controller                |
-| Soil Moisture Sensor  | Reads soil moisture levels     |
-| LED Matrix (MAX7219)  | Displays facial expressions    |
-| Relay Module          | Controls the pump              |
-| 5V DC Pump            | Automatically waters the plant |
-| 18650 2S Battery Pack | Portable power source          |
+| 🧠 Arduino Nano          | Main controller                |
+| 🌱 Soil Moisture Sensor  | Reads soil moisture levels     |
+| 😃 LED Matrix (MAX7219)  | Displays facial expressions    |
+| 🔌 Relay Module          | Controls the pump              |
+| 💦 5V DC Pump            | Automatically waters the plant |
+| 🔋 18650 2S Battery Pack | Portable power source          |
 
 ---
 
