@@ -69,12 +69,12 @@ Merawat tanaman sering kali menjadi tantangan, terutama bagi orang-orang sibuk a
 
 | Komponen              | Fungsi                                |
 |----------------------|----------------------------------------|
-| Arduino Nano          | Pengontrol utama                      |
-| Sensor Kelembapan    | Membaca kadar air tanah               |
-| LED Matrix (MAX7219) | Menampilkan ekspresi wajah            |
-| Relay Module         | Mengendalikan pompa                   |
-| Pompa DC 5V         | Menyiram tanaman otomatis             |
-| Baterai 18650 2S        | Sumber daya portabel                  |
+| 🧠 Arduino Nano          | Pengontrol utama                      |
+| 🌱 Sensor Kelembapan    | Membaca kadar air tanah               |
+| 😃 LED Matrix (MAX7219) | Menampilkan ekspresi wajah            |
+| 🔌 Relay Module         | Mengendalikan pompa                   |
+| 💦 Pompa DC 5V         | Menyiram tanaman otomatis             |
+| 🔋 Baterai 18650 2S        | Sumber daya portabel                  |
 
 ---
 
