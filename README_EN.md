@@ -124,6 +124,10 @@ Caring for plants can be a challenge, especially for busy people or those unfami
 🔗 **3D Design Vol 2**
 [https://www.thingiverse.com/thing:7048423](https://www.thingiverse.com/thing:7048423)
 
+🔗 **Desain 3D Vol **  
+https://www.thingiverse.com/thing:7050436
+
+
 ---
 
 ## ⚙️ Working Principle
