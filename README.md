@@ -129,6 +129,9 @@ https://www.thingiverse.com/thing:7030558
 🔗 **Desain 3D Vol 2**  
 https://www.thingiverse.com/thing:7048423
 
+🔗 **Desain 3D Vol **  
+https://www.thingiverse.com/thing:7050436
+
 ---
 
 ## ⚙️ Working Principle
