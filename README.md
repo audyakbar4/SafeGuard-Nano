@@ -12,6 +12,9 @@
 
 [![Watch the demo](https://img.youtube.com/vi/MjPV3MSSsJY/0.jpg)](https://youtu.be/MjPV3MSSsJY)
 
+📘 **Read the Book**  
+👉 [Download or view the PDF here](https://github.com/username/repo-name/raw/main/Moodpot_Book.pdf)
+
 
 ## 📘 Overview
 
