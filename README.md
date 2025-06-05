@@ -13,8 +13,7 @@
 [![Watch the demo](https://img.youtube.com/vi/MjPV3MSSsJY/0.jpg)](https://youtu.be/MjPV3MSSsJY)
 
 ## 📘 **Read the Book**  
-👉 [Download or view the PDF here](https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Buku%20Proyek%20Ini/Buku%20Project.pdf)
-
+📥 **[Klik di sini untuk membaca atau mengunduh buku (PDF) via Google Drive](https://drive.google.com/file/d/1IO3YOHFWqZMyCUJihesarO_bfAY0iYo1/view?usp=drive_link)**
 
 ##  Overview
 
