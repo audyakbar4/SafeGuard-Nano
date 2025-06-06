@@ -212,7 +212,7 @@ MoodPot dikirim dalam kondisi siap pakai (plug and play). Berikut langkah cepat 
 
 ---
 
-<img src="https://drive.google.com/file/d/1P-tONANj9C90m-sVbu7JIDEX6FwxKByw/view?usp=drive_link">
+<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/Gambar/Foto%20Bersama.jpeg">
 
 ## 🎓 Supported by
 
