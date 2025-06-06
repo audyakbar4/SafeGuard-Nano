@@ -9,6 +9,14 @@
 
 [![Watch the demo](https://img.youtube.com/vi/MjPV3MSSsJY/0.jpg)](https://youtu.be/MjPV3MSSsJY)
 
+## Read The Book Now
+
+[![Buka Buku](https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/Gambar/coverbook.jpg)](https://drive.google.com/file/d/1HuYGjgtTOYwcRgPvUPsH1EMrSk2Qgu1x/view?usp=drive_link)
+
+## 🎬 Demo Video Project
+
+[![Watch the demo](https://img.youtube.com/vi/0xyM6YmwgGI/0.jpg)](https://youtu.be/0xyM6YmwgGI)
+
 ## 📘 Overview
 
 🌱 MoodPot – When Plants Can Speak Through Expressions
