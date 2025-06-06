@@ -211,6 +211,9 @@ MoodPot dikirim dalam kondisi siap pakai (plug and play). Berikut langkah cepat 
 [👉 Klik di sini untuk melihat dokumentasi](https://drive.google.com/drive/folders/1GqONTiI6WEsIznY9d5Q_FcgnjMObSm_b?usp=drive_link)
 
 ---
+
+<img src="<img src="https://drive.google.com/file/d/1P-tONANj9C90m-sVbu7JIDEX6FwxKByw/view?usp=drive_link">">
+
 ## 🎓 Supported by
 
 - 👨‍🏫 Dosen Pengampu: Akhmad Hendriawan, S.T., M.T.
