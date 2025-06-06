@@ -15,6 +15,10 @@
 ## 📘 **Read the Book**  
 📥 **[Klik di sini untuk membaca atau mengunduh buku (PDF) via Google Drive](https://drive.google.com/file/d/1IO3YOHFWqZMyCUJihesarO_bfAY0iYo1/view?usp=drive_link)**
 
+## 🎬 Demo Video Project
+
+[![Watch the demo](https://img.youtube.com/vi/0xyM6YmwgGI/0.jpg)](https://youtu.be/0xyM6YmwgGI)
+
 ##  Overview
 
 🌱 MoodPot – Ketika Tanaman Bisa Bercerita Lewat Ekspresi
