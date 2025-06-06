@@ -14,7 +14,7 @@
 
 ## Read The Book Now
 
-[![Buka Buku](https://raw.githubusercontent.com/username/repo-name/branch/path/to/thumbnail.jpg)](https://drive.google.com/file/d/FILE_ID/view)
+[![Buka Buku](https://github.com/audyakbar4/SafeGuard-Nano/blob/main/Assets/Gambar/coverbook.jpg)](https://drive.google.com/file/d/1HuYGjgtTOYwcRgPvUPsH1EMrSk2Qgu1x/view?usp=drive_link)
 
 ## 🎬 Demo Video Project
 
