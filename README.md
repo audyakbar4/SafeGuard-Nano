@@ -112,6 +112,9 @@ Merawat tanaman sering kali menjadi tantangan, terutama bagi orang-orang sibuk a
 
 <img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/PCB%20Design/3D%20Viewer%20PCB.png">
 
+## Tampak Dalam
+<img src="https://github.com/audyakbar4/SafeGuard-Nano/blob/main/PCB%20Design/Tampilan%20Dalam.jpg">
+
 ---
 
 ## 💡 Simulasi Proyek
