@@ -208,7 +208,7 @@ MoodPot dikirim dalam kondisi siap pakai (plug and play). Berikut langkah cepat 
 - 👨‍🏫 Mendapat feedback positif dari pengajar dan rekan sejawat
 
 📸 Dokumentasi Kegiatan:
-[👉 Klik di sini untuk melihat dokumentasi](https://drive.google.com/drive/folder-link)
+[👉 Klik di sini untuk melihat dokumentasi](https://drive.google.com/drive/folders/1GqONTiI6WEsIznY9d5Q_FcgnjMObSm_b?usp=drive_link)
 
 ---
 ## 🎓 Supported by
